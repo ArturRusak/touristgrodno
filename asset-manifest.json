@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/touristgrodno/static/css/main.2cce8147.chunk.css",
+    "main.js": "/touristgrodno/static/js/main.ad77c867.chunk.js",
+    "main.js.map": "/touristgrodno/static/js/main.ad77c867.chunk.js.map",
+    "runtime~main.js": "/touristgrodno/static/js/runtime~main.8acbdb75.js",
+    "runtime~main.js.map": "/touristgrodno/static/js/runtime~main.8acbdb75.js.map",
+    "static/js/2.b41502e9.chunk.js": "/touristgrodno/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/touristgrodno/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/touristgrodno/index.html",
+    "precache-manifest.80ebb5bc80ab3e198a6a9f7cd1157b40.js": "/touristgrodno/precache-manifest.80ebb5bc80ab3e198a6a9f7cd1157b40.js",
+    "service-worker.js": "/touristgrodno/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/touristgrodno/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/touristgrodno/static/media/logo.5d5d9eef.svg"
+  }
+}
