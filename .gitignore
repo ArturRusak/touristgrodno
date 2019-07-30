@@ -3,9 +3,10 @@
 # dependencies
 /node_modules
 /.pnp
-/.idea
-.idea
 .pnp.js
+
+# settings of idea
+.idea/
 
 # testing
 /coverage
