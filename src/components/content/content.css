@@ -1,0 +1,11 @@
+.content-body {
+    flex-grow: 1;
+    background-color: var(--body-bg-color);
+}
+
+.content-wrapper {
+    width: 100%;
+    max-width: var(--content-width);
+    padding: var(--container-padding);
+    margin: 0 auto;
+}
