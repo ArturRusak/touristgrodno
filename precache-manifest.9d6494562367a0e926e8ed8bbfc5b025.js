@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d041ac7d4186cea665f7dc9bf698ae3",
+    "revision": "515080229fbfece7adc6813193b27889",
     "url": "/touristgrodno/index.html"
   },
   {
-    "revision": "ca2de5816a5781039403",
+    "revision": "3c51133bb805b93723b6",
     "url": "/touristgrodno/static/css/main.d2962b1c.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/touristgrodno/static/js/2.3310f33a.chunk.js"
   },
   {
-    "revision": "ca2de5816a5781039403",
-    "url": "/touristgrodno/static/js/main.573e9a6c.chunk.js"
+    "revision": "3c51133bb805b93723b6",
+    "url": "/touristgrodno/static/js/main.1d2a8f67.chunk.js"
   },
   {
     "revision": "272b14ea8eca19925f85",
