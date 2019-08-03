@@ -1,2 +1,5 @@
-export { default as Header } from './header/header';
-export { default as Footer } from './footer/footer';
+export { default as Header } from './Header/Header';
+export { default as Content } from './Content/Content';
+export { default as Footer } from './Footer/Footer';
+export { default as StartPage } from './screens/StartPage/StartPage';
+export { default as Slider } from './share/Slider/Slider';

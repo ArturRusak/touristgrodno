@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 
-# settings of idea
+## Directory-based project format:
 .idea/
 
 # testing
@@ -24,3 +24,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+styleguide/
