@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header, Content, Footer } from './components';
+import { Header, Content, Footer, StartPage } from './components';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Header/>
       <Content>
         <h1>Hrodna</h1>
+        <StartPage/>
       </Content>
       <Footer/>
     </div>
