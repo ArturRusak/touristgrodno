@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/touristgrodno/static/css/main.05b75629.chunk.css",
-    "main.js": "/touristgrodno/static/js/main.61125f2e.chunk.js",
-    "main.js.map": "/touristgrodno/static/js/main.61125f2e.chunk.js.map",
+    "main.css": "/touristgrodno/static/css/main.fa483220.chunk.css",
+    "main.js": "/touristgrodno/static/js/main.8051c535.chunk.js",
+    "main.js.map": "/touristgrodno/static/js/main.8051c535.chunk.js.map",
     "runtime~main.js": "/touristgrodno/static/js/runtime~main.8acbdb75.js",
     "runtime~main.js.map": "/touristgrodno/static/js/runtime~main.8acbdb75.js.map",
-    "static/js/2.581a34b9.chunk.js": "/touristgrodno/static/js/2.581a34b9.chunk.js",
-    "static/js/2.581a34b9.chunk.js.map": "/touristgrodno/static/js/2.581a34b9.chunk.js.map",
+    "static/js/2.1107f2a9.chunk.js": "/touristgrodno/static/js/2.1107f2a9.chunk.js",
+    "static/js/2.1107f2a9.chunk.js.map": "/touristgrodno/static/js/2.1107f2a9.chunk.js.map",
     "index.html": "/touristgrodno/index.html",
-    "precache-manifest.03ae55dcaf2c5846767d7e2a0fa29b73.js": "/touristgrodno/precache-manifest.03ae55dcaf2c5846767d7e2a0fa29b73.js",
+    "precache-manifest.c5d24c1c586c94b6211205a7d2c0b506.js": "/touristgrodno/precache-manifest.c5d24c1c586c94b6211205a7d2c0b506.js",
     "service-worker.js": "/touristgrodno/service-worker.js",
-    "static/css/main.05b75629.chunk.css.map": "/touristgrodno/static/css/main.05b75629.chunk.css.map"
+    "static/css/main.fa483220.chunk.css.map": "/touristgrodno/static/css/main.fa483220.chunk.css.map"
   }
 }
