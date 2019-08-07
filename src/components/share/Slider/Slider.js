@@ -1,5 +1,6 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
+import './slider.css';
 
 function Slider() {
   const params = {

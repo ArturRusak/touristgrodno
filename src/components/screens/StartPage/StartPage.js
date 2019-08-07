@@ -13,13 +13,15 @@ function StartPage() {
         {showPlacelist.map((item, index) => (
           <a key={index} className={"showplace-item-link"} href={item.linkMore}>
             <div className={"showplace-item"}>
-              <img
-                className={"showplace-item-img"}
-                src={item.img}
-                alt={item.imgAlt}
-                title={item.imgTitle}
-              />
-              <h3 className={"showplace-item-title"}>{item.title}</h3>
+              <div className={"showplace-item-top"}>
+                <img
+                  className={"showplace-item-img"}
+                  src={item.img}
+                  alt={item.imgAlt}
+                  title={item.imgTitle}
+                />
+                <h3 className={"showplace-item-title"}>{item.title}</h3>
+              </div>
               <p className={"showplace-item-description"}>{item.shortDescription}</p>
             </div>
           </a>
