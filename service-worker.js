@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/touristgrodno/precache-manifest.6033f853659a34a4551c19184504f7fd.js"
+  "/touristgrodno/precache-manifest.e40f98c3c66637a4a47062adc8f4a74e.js"
 );
 
 self.addEventListener('message', (event) => {
