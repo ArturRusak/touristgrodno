@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navigation } from '../index';
 import './header.css';
 
 function Header() {
@@ -9,7 +10,11 @@ function Header() {
           <a href={"#"} title={"home"} className={"header-logo-text"}>H R D N</a>
           <span>Hrodna, BLR</span>
         </div>
-        <div className={"header-description"}>1128 year.</div>
+        <Navigation/>
+        {/*        <div>
+
+        </div>
+        <div className={"header-description"}>1128 year.</div>*/}
       </div>
     </header>
   );
