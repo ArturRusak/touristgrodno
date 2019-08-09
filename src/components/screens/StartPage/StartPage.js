@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slider } from "../../index";
+import { Content, Slider } from "../../index";
 import { showPlacelist } from '../../../constants';
 import "./startPage.css";
 
@@ -7,6 +7,7 @@ import "./startPage.css";
 function StartPage() {
   return (
     <React.Fragment>
+      <h1>Hrodna</h1>
       <Slider/>
       <h2>The main attractions of Hrodna</h2>
       <div className={"showplace-list"}>
