@@ -7,7 +7,7 @@ import './navigation.css';
 function Navigation() {
   const visible = 'visible';
   const hidden = 'hidden';
-  const [navClass, setNavClass] = useState(visible);
+  const [navClass, setNavClass] = useState(hidden);
   const isVisibleClass = navClass === visible;
 
   const toggleClass = () => setNavClass(isVisibleClass ? hidden : visible);
