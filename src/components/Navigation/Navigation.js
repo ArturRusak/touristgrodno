@@ -35,7 +35,9 @@ function Navigation() {
         className="nav-button"
         onClick={toggleClass}
       >
-        {isVisibleClass ? 'close' : 'open'}
+        {isVisibleClass ?
+            <i className="fa fa-bars fa-2x" aria-hidden="true"></i> :
+            <i className="fa fa-times fa-2x" aria-hidden="true"></i>}
       </button>
     </div>
   );
