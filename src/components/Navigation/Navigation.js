@@ -36,11 +36,12 @@ function Navigation() {
         onClick={toggleClass}
       >
         {isVisibleClass ?
-            <i className="fa fa-bars fa-2x" aria-hidden="true"></i> :
-            <i className="fa fa-times fa-2x" aria-hidden="true"></i>}
+          <i className="fa fa-times fa-2x" aria-hidden="true"></i> :
+          <i className="fa fa-bars fa-2x" aria-hidden="true"></i>
+        }
       </button>
     </div>
-  );
+  )
 }
 
 export default Navigation;
