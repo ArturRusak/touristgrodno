@@ -16,7 +16,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "style-start": "npx styleguidist server",
-    "sryle-build": "styleguidist build",
+    "style-build": "styleguidist build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
