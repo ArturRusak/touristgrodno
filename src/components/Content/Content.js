@@ -1,8 +1,9 @@
 import React from 'react';
 import './content.css';
+import {withRouter} from 'react-router';
 
-function Content(props) {
-  const {children} = props;
+//TODO add breadcrumbs
+function Content({history, children}) {
   return(
     <div className={"content-body"}>
       <div className={"content-wrapper"}>
@@ -12,4 +13,4 @@ function Content(props) {
   );
 }
 
-export default Content;
+export default withRouter(Content);
