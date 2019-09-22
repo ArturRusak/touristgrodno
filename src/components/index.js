@@ -4,6 +4,7 @@ export { default as Footer } from './Footer/Footer';
 export { default as Slider } from './share/Slider/Slider';
 export { default as Navigation } from './Navigation/Navigation';
 export { default as Routes } from './Routes/Routes';
+export { default as BreadCrumbs } from './BreadCrumbs/BreadCrumbs';
 
 
 /* Screens */

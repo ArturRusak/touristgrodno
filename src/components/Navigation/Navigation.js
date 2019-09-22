@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+import { NAVIGATION } from "../../constants";
 import './navigation.css';
 
 //TODO restyling of button
@@ -16,18 +17,15 @@ function Navigation() {
     <div>
       <nav className={navClass}>
         <ul>
-          <li>
-            <NavLink to="/" onClick={toggleClass}>Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/showplaces" onClick={toggleClass}>ShowPlaces</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" onClick={toggleClass}>About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/museums" onClick={toggleClass}>Museums</NavLink>
-          </li>
+          {NAVIGATION.map((item, index) =>
+            <li key={`${index}-li`}>
+              <NavLink
+                to={item.url}
+                onClick={toggleClass}
+              >
+                {item.title}
+              </NavLink>
+            </li>)}
         </ul>
       </nav>
       <button

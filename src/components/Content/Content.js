@@ -1,12 +1,15 @@
 import React from 'react';
 import './content.css';
-import {withRouter} from 'react-router';
+import { withRouter } from 'react-router';
 
-//TODO add breadcrumbs
+import { BreadCrumbs } from '../index';
+
 function Content({history, children}) {
-  return(
+  const isHomeUrl = history.location.pathname === '/';
+  return (
     <div className={"content-body"}>
       <div className={"content-wrapper"}>
+        {!isHomeUrl && <BreadCrumbs history={history}/>}
         {children}
       </div>
     </div>
