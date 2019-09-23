@@ -41,3 +41,9 @@ footer {
     border-bottom: 0.1em solid var(--color-logo);
     margin-bottom: 0.2em;
 }
+
+@media screen and (max-width: 467px) {
+    .footer-logo, .footer-description {
+        font-size: 0.8em;
+    }
+}

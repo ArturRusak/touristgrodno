@@ -37,16 +37,21 @@ nav ul li a {
     nav ul {
         z-index: 9;
         position: fixed;
-        top: 0;
+        top: 5.5em;
         flex-direction: column;
         justify-content: flex-start;
         width: 50%;
         min-width: 320px;
-        height: 100%;
+        height: calc(100% - 5.5em);
         padding: 1em;
+        overflow-y: auto;
         color: var(--color-text);
         background: var(--nav-bg-color-mobile);
         transition: 0.5s;
+    }
+
+    nav ul li a {
+        padding: 0.7em 0;
     }
 
     .visible ul {
@@ -60,5 +65,9 @@ nav ul li a {
     ul li {
         width: 100%;
         border-bottom: 0.05em solid var(--main-bg-color);
+    }
+
+    .nav-button .fa {
+        font-size: 1.5em;
     }
 }

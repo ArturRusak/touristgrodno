@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Header, Content, Footer, Routes } from './components';
+import {Header, Content, Footer, Routes} from './components';
 
 function App() {
   return (
