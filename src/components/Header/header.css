@@ -1,4 +1,7 @@
 header {
+    z-index: 9;
+    position: sticky;
+    top: 0;
     min-height: 4em;
     background: var(--main-bg-color);
 }
@@ -36,9 +39,6 @@ header {
 
 @media screen and (max-width: 767px) {
     header {
-        z-index: 9;
-        position: sticky;
-        top: 0;
         height: 5.5em;
     }
 
