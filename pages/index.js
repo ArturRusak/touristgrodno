@@ -1,10 +1,10 @@
 import React from 'react';
-import { Content, Slider } from "../../index";
-import { showPlacelist } from '../../../constants';
-import "./startPage.css";
+import { Content, Slider } from "../components";
+import { showPlacelist } from '../constants';
+import "../assets/css/startPage.css";
 
 
-function StartPage() {
+function Index() {
   return (
     <React.Fragment>
       <h1>Hrodna</h1>
@@ -28,8 +28,9 @@ function StartPage() {
           </a>
         ))}
       </div>
-    </React.Fragment>
+      {/*
+   */} </React.Fragment>
   );
 }
 
-export default StartPage;
+export default Index;

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navigation } from '../index';
-import './header.css';
 
 function Header() {
   return(
